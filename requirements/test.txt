@@ -12,7 +12,7 @@ affine==2.4.0
     # via rasterio
 aiohappyeyeballs==2.4.3
     # via aiohttp
-aiohttp==3.10.11
+aiohttp==3.12.14
     # via
     #   aiohttp-cors
     #   datasets
@@ -267,7 +267,7 @@ grpcio==1.71.0
     # via ray
 gunicorn==23.0.0
     # via mlflow
-h11==0.14.0
+h11==0.16.0
     # via
     #   httpcore
     #   uvicorn
@@ -442,7 +442,7 @@ mdurl==0.1.2
     # via markdown-it-py
 mistral-common==1.8.2
     # via -r requirements/test.in
-mlflow==2.22.0
+mlflow==2.22.2
     # via terratorch
 mlflow-skinny==2.22.0
     # via mlflow
@@ -702,7 +702,7 @@ propcache==0.2.0
     # via yarl
 proto-plus==1.26.1
     # via google-api-core
-protobuf==5.28.3
+protobuf==5.29.5
     # via
     #   google-api-core
     #   googleapis-common-protos
@@ -870,7 +870,7 @@ regex==2024.9.11
     #   sacrebleu
     #   tiktoken
     #   transformers
-requests==2.32.3
+requests==2.32.4
     # via
     #   buildkite-test-collector
     #   databricks-sdk
@@ -964,7 +964,7 @@ sentence-transformers==3.2.1
     #   mteb
 sentencepiece==0.2.0
     # via mistral-common
-setuptools==77.0.3
+setuptools==78.1.1
     # via
     #   lightning-utilities
     #   pytablewriter
@@ -1012,7 +1012,7 @@ sqlitedict==2.1.0
     # via lm-eval
 sqlparse==0.5.3
     # via mlflow-skinny
-starlette==0.46.2
+starlette==0.47.2
     # via
     #   fastapi
     #   schemathesis
@@ -1066,7 +1066,7 @@ tomli==2.2.1
     # via schemathesis
 tomli-w==1.2.0
     # via schemathesis
-torch==2.7.1+cu128
+torch==2.8.0
     # via
     #   -r requirements/test.in
     #   accelerate
@@ -1139,7 +1139,7 @@ tqdm==4.66.6
     #   transformers
 tqdm-multiprocess==0.0.11
     # via lm-eval
-transformers==4.55.2
+transformers==4.56.1
     # via
     #   -r requirements/test.in
     #   genai-perf
@@ -1199,7 +1199,7 @@ tzdata==2024.2
     # via pandas
 uri-template==1.3.0
     # via jsonschema
-urllib3==2.2.3
+urllib3==2.5.0
     # via
     #   blobfile
     #   botocore
