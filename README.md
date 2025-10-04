@@ -1,4 +1,4 @@
-<!-- markdownlint-disable MD001 MD041 -->
+ <!-- markdownlint-disable MD001 MD041 -->
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vllm-project/vllm/main/docs/assets/logos/vllm-logo-text-dark.png">
